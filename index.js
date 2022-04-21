@@ -55,9 +55,6 @@ const btnComparar = document.querySelector('#btnComparar');
 
 // Funciones
 
-/**
- * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
- */
 function catalogo() {
     baseDeDatos.forEach((info) => {
         // Estructura
